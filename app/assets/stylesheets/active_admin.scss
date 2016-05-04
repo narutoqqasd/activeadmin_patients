@@ -1,0 +1,15 @@
+/*
+ *= require datetimepicker/jquery.datetimepicker
+*/
+// Active Admin's got SASS!
+@import "active_admin/mixins";
+@import "active_admin/base";
+
+@import "fancybox/source/jquery.fancybox";
+@import "fancybox/source/helpers/jquery.fancybox-buttons";
+@import "fancybox/source/helpers/jquery.fancybox-thumbs";
+
+// Overriding any non-variable SASS must be done after the fact.
+// For example, to change the default status-tag color:
+//
+//   .status_tag { background: #6090DB; }
